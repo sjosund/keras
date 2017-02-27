@@ -1063,6 +1063,8 @@ class UpSampling2D(Layer):
     # Arguments
         size: int, or tuple of 2 integers.
             The upsampling factors for rows and columns.
+            If only one integer is specified, the same factor
+            will be used for both dimensions.
         data_format: A string,
             one of `channels_last` (default) or `channels_first`.
             The ordering of the dimensions in the inputs.
